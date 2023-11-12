@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+ 
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+ 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/3d5eef6133.js" crossorigin="anonymous"></script>
+</head>
+ 
+<body>
+    <div class="container">
+        <h1>ToDo List</h1>
+        <div>
+            <input type="text" id="inputText" placeholder="Enter your task" style="text-align: center;">
+        </div>
+        <div>
+            <input type="submit" value="Save" id="submitBtn" onclick="getValue()">
+        </div>
+        <div class="displayTask">
+            <h3>Your Saved task will appear here</h3>
+            <p id="output">currently, there is no task to show</p>
+        </div>
+    </div>
+ 
+ 
+    <script src="script.js"></script>
+</body>
+ 
+</html>
